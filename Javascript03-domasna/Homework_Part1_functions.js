@@ -1,6 +1,6 @@
 function diffTypes(whatTypes) {
     let par = typeof whatTypes;
-    return par
+    return par;
 }
 
 console.log(diffTypes({ a: 1 }));
